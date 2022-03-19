@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import image from "../img/logo branco.png";
-import icons from "../img/icons.png";
+import facebook from "../img/facebook.png";
+import instagram from "../img/instagram.png";
+import whatsapp from "../img/whatsapp.png";
 import "./estilo.css";
 
 class Footer extends Component {
@@ -10,9 +12,11 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 p-1">
-              <img src={image} width="120" className=""></img>
+              <a href="">
+                <img src={image} width="120" className=""></img>
+              </a>
             </div>
-            <div className="col-lg-4 p-1">
+            <div className="col-lg-4 d-none d-sm-none d-md-none d-lg-block p-1">
               <span className=" d-flex flex-column text-light">
                 <span>
                   Portal de Privacidade | Política de Privacidade © 2022 Radnet
@@ -22,7 +26,15 @@ class Footer extends Component {
             </div>
 
             <div className="col-lg-4 p-1">
-              <img src={icons} width="140" className=""></img>
+              <a href="https://api.whatsapp.com/send?phone=556133350513">
+                <img src={whatsapp} width="40" className="m-2"></img>
+              </a>
+              <a href="https://www.instagram.com/radnettelecom/">
+                <img src={instagram} width="40" className="m-2"></img>
+              </a>
+              <a href="https://www.facebook.com/RadnetTelecom">
+                <img src={facebook} width="40" className="m-2"></img>
+              </a>
             </div>
           </div>
         </div>

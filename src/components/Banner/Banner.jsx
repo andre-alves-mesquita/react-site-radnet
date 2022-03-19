@@ -11,11 +11,11 @@ class Banner extends Component {
         <div className="container">
           <div className="row">
             <div className="col-6 d-none d-sm-none d-md-none d-lg-block banner">
-              <img src={image} width="500" className=""></img>
+              <img src={image} className="img-fluid"></img>
             </div>
             <div className="col-12 col-lg-6   d-flex flex-column justify-content-center align-items-center">
-              <img src={image3} width="500" className=""></img>
-              <img src={image2} width="500" className=""></img>
+              <img src={image3} className="img-fluid"></img>
+              <img src={image2} className="img-fluid"></img>
             </div>
           </div>
         </div>

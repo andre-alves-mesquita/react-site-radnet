@@ -11,12 +11,15 @@ class Series extends Component {
             <img src={image} className="img-fluid"></img>
           </div>
           <div className="col-lg-4 col-ms-12">
-            <p className=" texto-serie text-light p-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only
+            <p className="text-light texto-games p-5">
+              <h1>+SERIES</h1>
+              <h1>+FILMES</h1>
+
+              <h6>
+                Assista suas séries em alta qualidade sem travamentos, com
+                RADNET FIBRA você irá aproveitar a melhor experiência de
+                conexão.
+              </h6>
             </p>
           </div>
         </div>

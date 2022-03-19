@@ -7,7 +7,13 @@ class Planos extends Component {
     super();
     this.planos = ["START", "PLUS", "ULTRA", "MESH"];
     this.velocidade = ["60", "200", "300", "400"];
-    this.valor = ["119,90", "139,90", "159,90", "249,90"];
+    this.valor = ["89,90", "109,90", "129,90", "199,90"];
+    this.links = [
+      "https://api.whatsapp.com/send?phone=556133350513&text=Olá,%20queria%20contratar%20o%20plano%20de%2060%20mega",
+      "https://api.whatsapp.com/send?phone=556133350513&text=Olá,%20queria%20contratar%20o%20plano%20de%20200%20mega",
+      "https://api.whatsapp.com/send?phone=556133350513&text=Olá,%20queria%20contratar%20o%20plano%20de%20300%20mega",
+      "https://api.whatsapp.com/send?phone=556133350513&text=Olá,%20queria%20contratar%20o%20plano%20de%20400%20mega",
+    ];
 
     var nav = document.querySelector(".anime");
     window.addEventListener("scroll", function () {
@@ -40,7 +46,9 @@ class Planos extends Component {
                 <span>por apenas</span>
                 <h1 className="mb-0">{this.valor[index]}</h1>
                 <span>c/ fidelidade</span>
-                <button className="btn btn-primary mt-3">Contrate</button>
+                <a href={this.links[index]}>
+                  <button className="btn btn-primary mt-3">Contrate</button>
+                </a>
               </div>
             ))}
           </div>
