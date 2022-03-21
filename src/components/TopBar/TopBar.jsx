@@ -34,9 +34,9 @@ class TopBar extends Component {
               id="navbarSupportedContent"
             >
               <span className="mr-3 d-none d-sm-none d-md-none d-lg-block text-white ms-1 me-1">
-                <a href="tel:+61999540513" className="link-fone">
-                  <img src={whats} width="20" className="ml-2"></img> (61) 99954
-                  0513
+                <a href="tel:+6133350513" className="link-fone">
+                  <img src={whats} width="20" className="ml-2"></img> (61)
+                  3335-0513
                 </a>
               </span>
 

@@ -1,1 +1,1 @@
-ngrok http 3000
+npx ngrok http 3000
